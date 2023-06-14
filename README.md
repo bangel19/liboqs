@@ -43,6 +43,7 @@ The list below indicates all algorithms supported by liboqs, but not all those a
 <!--- OQS_TEMPLATE_FRAGMENT_LIST_KEXS_START -->
 - **BIKE**: BIKE-L1, BIKE-L3, BIKE-L5
 - **Classic McEliece**: Classic-McEliece-348864†, Classic-McEliece-348864f†, Classic-McEliece-460896†, Classic-McEliece-460896f†, Classic-McEliece-6688128†, Classic-McEliece-6688128f†, Classic-McEliece-6960119†, Classic-McEliece-6960119f†, Classic-McEliece-8192128†, Classic-McEliece-8192128f†
+- **RLCE**: RLCE-L1, RLCE-L3, RLCE-L5
 - **FrodoKEM**: FrodoKEM-640-AES, FrodoKEM-640-SHAKE, FrodoKEM-976-AES, FrodoKEM-976-SHAKE, FrodoKEM-1344-AES, FrodoKEM-1344-SHAKE
 - **HQC**: HQC-128, HQC-192, HQC-256†
 - **Kyber**: Kyber512, Kyber768, Kyber1024
