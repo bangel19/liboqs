@@ -67,6 +67,9 @@ target_link_libraries(example_kem PRIVATE ${API_TEST_DEPS})
 add_executable(kat_kem kat_kem.c)
 target_link_libraries(kat_kem PRIVATE ${API_TEST_DEPS})
 
+add_executable(example_kem_rlce example_kem_rlce.c)
+target_link_libraries(example_kem_rlce PRIVATE ${API_TEST_DEPS})
+
 add_executable(test_kem test_kem.c)
 if((CMAKE_C_COMPILER_ID MATCHES "Clang") OR (CMAKE_C_COMPILER_ID STREQUAL "GNU"))
     target_link_libraries(test_kem PRIVATE ${API_TEST_DEPS} Threads::Threads)
